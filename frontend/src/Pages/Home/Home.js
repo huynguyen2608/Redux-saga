@@ -24,6 +24,6 @@ function Home(props) {
             <h2>Number of favorite pets so far {Favorite}</h2>
         </div>
     )
-}
+};
 
-export default Home
+export default Home;

@@ -1,5 +1,5 @@
 import { call, put, takeLatest } from "redux-saga/effects";
-import fetchGetUsers from "../requests/fetchGetUsers";
+import fetchGetUsers from "../../../Api/api";
 
 function* handleGetUsers() {
   try {
