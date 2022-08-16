@@ -5,8 +5,8 @@ function Users(props) {
   return (
     <div>Users</div>
   )
-}
+};
 
 Users.propTypes = {}
 
-export default Users
+export default Users;

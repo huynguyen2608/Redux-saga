@@ -4,7 +4,7 @@ const initialState = {
     error: null,
 };
 
-const users = (state = initialState) => {
+const users = (state = initialState, action) => {
     switch (action.type) {
         case "GET_USERS_REQUEST":
             return {...state, loading: true};
@@ -16,3 +16,5 @@ const users = (state = initialState) => {
             return state;
     }
 };
+
+export default users;
